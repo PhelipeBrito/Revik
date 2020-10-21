@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./public/css/main.css">
+    <link rel="stylesheet" href="./public/css/header.css">
     <link rel="stylesheet" href="./public/css/page-reviews.css">
     <link href="https://fonts.googleapis.com/css2?family=Lexend+Tera&display=swap" rel="stylesheet">
     <title>Revik | Busque uma resenha</title>
@@ -30,7 +31,7 @@
                             <p>Jonh Doe</p>
                         </div>
 
-                        <div class="review-author">
+                        <div class="info-block">
                             <p>Autor da resenha:</p>
                             <p>Jonh Doe</p>
                         </div>
@@ -40,35 +41,32 @@
 
             <aside>
                 <form class="search-block">
-                    <fieldset>
-                        <legend>Pesquise uma resenha</legend>
-                        
-                        <div class="select-block">
-                            <label for="genre-search">Gênero</label>
-                            <select name="genre-search" id="genre-search">
-                                <option value="0">Ação</option>
-                                <option value="1">Aventura</option>
-                                <option value="2">Biografia</option>
-                                <option value="3">Comédia</option>
-                                <option value="4">Fantasia</option>
-                                <option value="5">Ficção</option>
-                                <option value="6">Ficção científica</option>
-                                <option value="7">Romance</option>
-                                <option value="8">Suspense</option>
-                                <option value="9">Terror</option>
-                            </select>
-                        </div>
+                    <h1>Pesquise uma resenha</h1>
+                    <div class="select-block">
+                        <label for="genre-search">Gênero</label>
+                        <select name="genre-search" id="genre-search">
+                            <option value="0">Ação</option>
+                            <option value="1">Aventura</option>
+                            <option value="2">Biografia</option>
+                            <option value="3">Comédia</option>
+                            <option value="4">Fantasia</option>
+                            <option value="5">Ficção</option>
+                            <option value="6">Ficção científica</option>
+                            <option value="7">Romance</option>
+                            <option value="8">Suspense</option>
+                            <option value="9">Terror</option>
+                        </select>
+                    </div>
 
                         <div class="input-block">
-                            <label for="book-name">Nome do livro</label>
-                            <input name="book-name">
-                        </div>
+                        <label for="book-name">Nome do livro</label>
+                        <input name="book-name">
+                    </div>
 
-                        <div class="input-block">
-                            <label for="review-author">Autor da resenha</label>
-                            <input name="review-author">
-                        </div>
-                    </fieldset>
+                    <div class="input-block">
+                        <label for="review-author">Autor da resenha</label>
+                        <input name="review-author">
+                    </div>
                 </form>
             </aside>
         </section>
