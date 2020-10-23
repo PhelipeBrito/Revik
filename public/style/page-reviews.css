@@ -11,17 +11,20 @@ section header {
 
 section .review-info {
     display: flex;
-    align-items: center;
     justify-content: flex-start;
     
     padding: 1rem 1.5rem;
     margin: 0 1rem;
 
     border-bottom: 1px solid #BCBCAC;
+
+    position: relative;
 }
 
-section .review-info img {
+section .review-info .book-cover {
     margin-right: 1.5rem;
+    width: 14.5rem; 
+    height: 19rem;
     
 }
 
@@ -36,3 +39,9 @@ section .review-info .info-block+.info-block {
     margin-top: 1.8rem;
 }
 
+section .review-info .arrow {
+    position: absolute;
+    
+    bottom: 1rem;
+    right: 2rem;
+}
