@@ -12,7 +12,7 @@
     <title>Revik | Resenha de Game of thrones</title>
 </head>
 <body>
-    <div id="page-reviews">
+    <div id="page-review">
         <header id="page-header">
             <h1>Revik</h1>
             <img src="./public/images/bookmarker.svg" alt="bookmarker" class="bookmarker">
@@ -20,7 +20,7 @@
         <section>
             <article>  
                 <div class="review-info">
-                    <img src="" alt="" width="145px" height="190px">
+                    <img src="" alt="">
                     <div class="main-info">
                         <div class="info-block">
                             <p>Nome do livro:</p>
@@ -36,14 +36,21 @@
                             <p>Autor da resenha:</p>
                             <p>Jonh Doe</p>
                         </div>
+
+                        <div class="info-block">
+                            <p>Resenha:</p>
+                        </div>
                     </div>
                 </div>
             </article>
 
             <aside>
                 <form class="search-block">
+
                     <h1>Pesquise uma resenha</h1>
+
                     <div class="select-block">
+
                         <label for="genre-search">Gênero</label>
                         <select name="genre-search" id="genre-search">
                             <option value="0">Ação</option>
@@ -57,16 +64,27 @@
                             <option value="8">Suspense</option>
                             <option value="9">Terror</option>
                         </select>
-                    </div>
 
-                        <div class="input-block">
-                        <label for="book-name">Nome do livro</label>
-                        <input name="book-name">
                     </div>
 
                     <div class="input-block">
+
+                        <label for="book-name">Nome do livro</label>
+                        <input name="book-name">
+
+                    </div>
+
+                    <div class="input-block">
+
                         <label for="review-author">Autor da resenha</label>
                         <input name="review-author">
+
+                    </div>
+                    <div class="button-search">
+                        <button type="button" class="btn-search">
+                            <img src="./public/images/button-search.svg" alt="button-search">
+                            <span>Pesquisar</span>
+                        </button>
                     </div>
                 </form>
             </aside>

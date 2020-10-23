@@ -1,0 +1,48 @@
+.review-info {
+    display: flex;
+    margin: 4rem
+}
+
+.review-info img {
+    width: 24.7rem; 
+    height: 33.7rem;
+
+    margin-right: 2rem;
+}
+
+.review-info .main-info {
+    font-family: 'Lexend Tera', sans-serif;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    color: #7C7C7C;
+}
+
+.review-info .info-block + .info-block {
+    margin-top: 3rem;
+}
+
+.button-search {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.button-search button {
+    width: 14rem;
+    height: 3.7rem;
+
+    background: #4C2769;
+    border-radius: 6rem;
+    border: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #874FB4;
+    font-size: 1.5rem;
+}
+
+.button-search button img {
+    margin-right: .5rem;
+}
