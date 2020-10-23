@@ -3,10 +3,6 @@ section{
     grid-template-columns: 3fr 1fr;
 }
 
-section article {
-    height: 100%;
-}
-
 section aside {
     height: 100vh;
     margin: 1rem 0;
