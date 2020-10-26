@@ -1,0 +1,22 @@
+form fieldset {
+    border: 0;
+
+    margin: 0 1rem;
+}
+
+form fieldset legend {
+    font-family: 'Lexend Tera', sans-serif;
+    font-size: 2.4rem;
+    color: #7C7C7C;
+
+    border-bottom: 1px solid #BCBCAC;
+
+    padding: 2.4rem;
+    
+
+    width: 100%;
+}
+
+form fieldset legend {
+    margin-bottom: 2rem;
+}

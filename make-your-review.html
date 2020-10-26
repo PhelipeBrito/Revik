@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./public/style/main.css">
     <link rel="stylesheet" href="./public/style/header.css">
-    <link rel="stylesheet" href="./public/style/page-review.css">
+    <link rel="stylesheet" href="./public/style/page-make-review.css">
     <link rel="stylesheet" href="./public/style/section.css">
     <link rel="stylesheet" href="./public/style/search-block.css">
     <link rel="stylesheet" href="./public/style/button.css">
@@ -19,31 +19,45 @@
             <img src="./public/images/bookmarker.svg" alt="bookmarker" class="bookmarker">
         </header>
         <section>
-            <article>  
-                <div class="review-info">
-                    <img src="" alt="">
-                    <div class="main-info">
-                        <div class="info-block">
-                            <p>Nome do livro:</p>
-                            <p>Game of thrones</p>
-                        </div>
-
-                        <div class="info-block">
-                            <p>Gênero:</p>
-                            <p>Jonh Doe</p>
-                        </div>
-
-                        <div class="info-block">
-                            <p>Autor da resenha:</p>
-                            <p>Jonh Doe</p>
-                        </div>
-
-                        <div class="info-block">
-                            <p>Resenha:</p>
-                        </div>
+            <form action="">
+                <fieldset>
+                    <legend>Faça sua resenha</legend>
+                    <div class="input-block">
+                        <label for="">Digite seu nome</label>
+                        <input type="text">
                     </div>
-                </div>
-            </article>
+
+                    <div class="input-block">
+                        <label for="">Digite o nome do livro</label>
+                        <input type="text">
+                    </div>
+
+                    <div class="select-block">
+
+                        <label for="genre-search">Gênero</label>
+                        <select name="genre-search" id="genre-search">
+                            <option value="0">Ação</option>
+                            <option value="1">Aventura</option>
+                            <option value="2">Biografia</option>
+                            <option value="3">Comédia</option>
+                            <option value="4">Fantasia</option>
+                            <option value="5">Ficção</option>
+                            <option value="6">Ficção científica</option>
+                            <option value="7">Romance</option>
+                            <option value="8">Suspense</option>
+                            <option value="9">Terror</option>
+                        </select>
+
+                    </div>
+
+                    <div class="textarea-block">
+                        <label for="">Faça sua resenha</label>
+                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                    </div>
+                   
+
+                </fieldset>
+            </form>
 
             <aside>
                 <form class="search-block">
